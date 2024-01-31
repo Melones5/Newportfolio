@@ -3,6 +3,7 @@ module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
@@ -13,7 +14,16 @@ module.exports = {
       },
       colors: {
         'primary-yellow': '#f1c232',
-        'seconday-blue': '#085094'
+        'seconday-blue': '#085094',
+        'seconday-blue-dark': '#062c46',
+        'darkText': '#d5d5d6',
+        // svg darkmode
+        'text2': "#18181b",
+        'textDark2': "#D4D4D8",
+        'text': "#0A0A09",
+        'textDark': "#F4F4F5",
+        'bMain': "#E4E4E7",
+        'bMainDark': "rgb(39 39 42)",        
       }
     },
   },

@@ -17,7 +17,7 @@ function Footer() {
 
   return (
     <div className='pt-8 h-[200px] flex justify-center items-end '>
-      <p className='text-center font-lato font-bold text-md'>© {year} Alexis Joel Santos. Todos los derechos reservados.</p>
+      <p className='text-center font-lato font-bold text-md dark:text-[#d5d5d6]'>© {year} Alexis Joel Santos. Todos los derechos reservados.</p>
     </div>
   )
 }

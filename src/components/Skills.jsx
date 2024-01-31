@@ -16,7 +16,7 @@ const Skills = () => {
       </div>
       <h2 className='text-lg font-raleway font-bold text-primary-yellow pt-8'>Habilidades</h2>
       <div className='pt-2'>
-        <ul className='list-disc pl-4 font-lato text-gray-600'>
+        <ul className='list-disc pl-4 font-lato text-gray-600 dark:text-darkText'>
           <li>Comunicación oral y escrita</li>
           <li>Trabajo en equipo</li>
           <li>Proactividad</li>

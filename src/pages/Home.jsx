@@ -7,6 +7,7 @@ import Skills from '../components/Skills'
 import Idioms from '../components/Idioms'
 import Projects from '../components/Projects'
 import Footer from './Footer'
+import ButtonDarkMode from '../components/ButtonDarkMode'
 
 
 const Home = () => {
@@ -20,6 +21,7 @@ const Home = () => {
       <Idioms/>
       <Projects/>
       <Footer/>
+      <ButtonDarkMode />
     </div>
   )
 }
