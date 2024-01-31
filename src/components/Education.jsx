@@ -13,7 +13,7 @@ const Education = () => {
         </div>
       </div>
       <div>
-        <p className='text-sm font-inter text-pretty text-seconday-blue dark:seconday-blue-dark mt-2'>Técnico en Administración</p>
+        <p className='text-sm font-inter text-pretty text-seconday-blue dark:text-seconday-blue-dark mt-2'>Técnico en Administración</p>
       </div>
       <div className='flex flex-col space-y-1.5 pt-8'>
         <div className='flex items-center justify-between '>
@@ -24,7 +24,7 @@ const Education = () => {
         </div>
       </div>
       <div>
-        <p className='text-sm font-inter text-pretty text-seconday-blue dark:seconday-blue-dark mt-2'>Analista de Sistemas</p>
+        <p className='text-sm font-inter text-pretty text-seconday-blue dark:text-seconday-blue-dark mt-2'>Analista de Sistemas</p>
       </div>
       <div className='flex flex-col space-y-1.5 pt-8'>
         <div className='flex items-center justify-between'>
@@ -35,7 +35,7 @@ const Education = () => {
         </div>
       </div>
       <div>
-        <p className='text-sm font-inter text-pretty text-seconday-blue dark:seconday-blue-dark mt-2'>Técnico en Electricidad con Orientación Electrónica Industrial.</p>
+        <p className='text-sm font-inter text-pretty text-seconday-blue dark:text-seconday-blue-dark mt-2'>Técnico en Electricidad con Orientación Electrónica Industrial.</p>
       </div>
     </div>
   )

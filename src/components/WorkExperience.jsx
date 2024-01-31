@@ -12,7 +12,7 @@ const WorkExperience = () => {
           </div>
         </div>
       {/* </div> */}
-      <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-darkText'>Pasantía en el Área de Producción, Municipalidad de Concepción del Uruguay</h6>
+      <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-white'>Pasantía en el Área de Producción, Municipalidad de Concepción del Uruguay</h6>
       <div>
         <p className='pt-2 text-xs font-inter text-pretty text-gray-600 dark:text-darkText'>Colaboré activamente en el área de producción de la
           Municipalidad de Concepción del Uruguay, trabajando
@@ -30,7 +30,7 @@ const WorkExperience = () => {
           </div>
         </div>
       </div>
-      <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-darkText'>Proyecto Final - Taller de Integración - UADER FCYT</h6>
+      <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-white'>Proyecto Final - Taller de Integración - UADER FCYT</h6>
       <div>
         <p className='pt-2 text-xs font-inter text-pretty text-gray-600 dark:text-darkText'>Desarrollé una tienda online de alquiler de productos para motivos vacacionales, deportivos, de camping, de reparación hogareña (herramientas) entre otros.</p>
         <p className='pt-2 text-xs font-inter text-pretty text-gray-600 dark:text-darkText'>Esta aplicación está desarrollada haciendo uso de diferentes
