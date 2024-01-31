@@ -7,7 +7,7 @@ const CardProject = ({ proyecto }) => {
       <div className='size-28 flex items-center justify-center'>
         <img src={proyecto.imagen} alt="red nube" />
       </div>
-      <div className='flex flex-col h-full w-full inset-0 absolute bg-seconday-blue items-center justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500'>
+      <div className='flex flex-col h-full w-full inset-0 absolute bg-seconday-blue-dark items-center justify-center group-hover:bottom-0 opacity-0 group-hover:opacity-100 transition-all duration-500'>
         <p className='font-semibold text-sm md:text-xs lg:text-base xl:text-sm font-inter text-center text-white px-10'>{proyecto.descripcion}</p>
         <div className='flex flex-col pt-4'>
           <div className='flex flex-wrap gap-1 justify-center text-white font-semibold'>

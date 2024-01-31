@@ -8,9 +8,11 @@ const Skills = () => {
     <div className='pt-8'>
       <h2 className='text-lg font-raleway font-bold text-primary-yellow'>Conocimientos</h2>
       <div className='flex flex-col pt-2'>
-        <div className='flex flex-wrap gap-1 justify-start'>
+        <div className='flex flex-wrap gap-1 justify-start cursor-pointer'>
           {skillList.map((skill) =>
-            <span className='inline-flex items-center rounded-md px-2 py-1 text-sm font-medium text-white bg-seconday-blue font-raleway' key={skill.id}>{skill.nombre}</span>
+            <span className='inline-flex items-center rounded-md px-2 py-1 text-sm font-bold text-gray-600 bg-gray-200 font-raleway hover:bg-seconday-blue-dark hover:text-white hover:font-bold' key={skill.id}>
+              {skill.nombre}
+            </span>
           )}         
         </div>
       </div>
