@@ -1,13 +1,13 @@
 import React from 'react'
-import Presentation from '../components/Presentation'
-import About from '../components/About'
-import WorkExperience from '../components/WorkExperience'
-import Education from '../components/Education'
-import Skills from '../components/Skills'
-import Idioms from '../components/Idioms'
-import Projects from '../components/Projects'
-import Footer from './Footer'
-import ButtonDarkMode from '../components/ButtonDarkMode'
+import Presentation from '../components/sections/Presentation'
+import About from '../components/sections/About'
+import WorkExperience from '../components/sections/WorkExperience'
+import Education from '../components/sections/Education'
+import Skills from '../components/sections/Skills'
+import Idioms from '../components/sections/Idioms'
+import Projects from '../components/sections/Projects'
+import Footer from '../components/sections/Footer'
+import ButtonDarkMode from '../components/sections/ButtonDarkMode'
 
 
 const Home = () => {
