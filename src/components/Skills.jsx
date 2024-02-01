@@ -10,7 +10,7 @@ const Skills = () => {
       <div className='flex flex-col pt-2'>
         <div className='flex flex-wrap gap-1 justify-start cursor-pointer'>
           {skillList.map((skill) =>
-            <span className='inline-flex items-center rounded-md px-2 py-1 text-sm font-bold text-gray-600 bg-gray-200 font-raleway hover:bg-seconday-blue-dark hover:text-white hover:font-bold' key={skill.id}>
+            <span className='inline-flex items-center rounded-md px-2 py-1 text-sm font-bold text-neutralText bg-gray-200 font-raleway hover:bg-seconday-blue-dark hover:text-white hover:font-bold' key={skill.id}>
               {skill.nombre}
             </span>
           )}         
@@ -18,7 +18,7 @@ const Skills = () => {
       </div>
       <h2 className='text-lg font-raleway font-bold text-primary-yellow pt-8'>Habilidades</h2>
       <div className='pt-2'>
-        <ul className='list-disc pl-4 font-lato text-gray-600 dark:text-darkText'>
+        <ul className='list-disc pl-4 font-lato text-neutralText dark:text-darkText'>
           <li>Comunicación oral y escrita</li>
           <li>Trabajo en equipo</li>
           <li>Proactividad</li>

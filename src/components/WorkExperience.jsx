@@ -7,14 +7,14 @@ const WorkExperience = () => {
       {/* <div className='flex flex-col space-y-1.5 pt-2'> */}
         <div className='flex items-center justify-between gap-x-2 pt-2'>
           <h3 className='text-base inline-flex items-center justify-center font-lato font-semibold leading-none dark:text-white'>Red Nube</h3>          
-          <div className='text-base tabular-nums font-inter text-gray-600 dark:text-darkText'>
+          <div className='text-base tabular-nums font-inter text-neutralText dark:text-darkText'>
           Jul 2023 - Oct 2023
           </div>
         </div>
       {/* </div> */}
       <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-white'>Pasantía en el Área de Producción, Municipalidad de Concepción del Uruguay</h6>
       <div>
-        <p className='pt-2 text-xs font-inter text-pretty text-gray-600 dark:text-darkText'>Colaboré activamente en el área de producción de la
+        <p className='pt-2 text-xs font-inter text-pretty text-neutralText dark:text-darkText'>Colaboré activamente en el área de producción de la
           Municipalidad de Concepción del Uruguay, trabajando
           junto a compañeros en la recolección de información
           sobre novedades referidas a proyectos que contribuyan al
@@ -25,15 +25,15 @@ const WorkExperience = () => {
       <div className='flex flex-col space-y-1.5 pt-8'>
         <div className='flex items-center justify-between gap-x-2 pt-2'>
           <h3 className='text-base inline-flex items-center justify-center font-lato font-semibold leading-none dark:text-white'>Rental Store</h3>
-          <div className='text-base tabular-nums font-inter text-gray-600 dark:text-darkText'>
+          <div className='text-base tabular-nums font-inter text-neutralText dark:text-darkText'>
             Ago 2022 - Feb 2023
           </div>
         </div>
       </div>
       <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-white'>Proyecto Final - Taller de Integración - UADER FCYT</h6>
       <div>
-        <p className='pt-2 text-xs font-inter text-pretty text-gray-600 dark:text-darkText'>Desarrollé una tienda online de alquiler de productos para motivos vacacionales, deportivos, de camping, de reparación hogareña (herramientas) entre otros.</p>
-        <p className='pt-2 text-xs font-inter text-pretty text-gray-600 dark:text-darkText'>Esta aplicación está desarrollada haciendo uso de diferentes
+        <p className='pt-2 text-xs font-inter text-pretty text-neutralText dark:text-darkText'>Desarrollé una tienda online de alquiler de productos para motivos vacacionales, deportivos, de camping, de reparación hogareña (herramientas) entre otros.</p>
+        <p className='pt-2 text-xs font-inter text-pretty text-neutralText dark:text-darkText'>Esta aplicación está desarrollada haciendo uso de diferentes
           tecnologías, como por ejemplo del lado del back-end, se
           utilizó nodejs con librerías tales como Express js, node-
           cron, Nodemailer. En la parte del front-end se utilizó React,

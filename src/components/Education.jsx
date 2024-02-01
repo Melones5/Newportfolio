@@ -7,7 +7,7 @@ const Education = () => {
       <div className='flex flex-col space-y-1.5 pt-2'>
         <div className='flex items-center justify-between '>
           <h3 className='font-lato font-semibold leading-none dark:text-white'>UADER - FCG</h3>
-          <div className='text-sm tabular-nums font-inter text-gray-600 dark:text-darkText'>
+          <div className='text-sm tabular-nums font-inter text-neutralText dark:text-darkText'>
             Diciembre 2023
           </div>
         </div>
@@ -18,7 +18,7 @@ const Education = () => {
       <div className='flex flex-col space-y-1.5 pt-8'>
         <div className='flex items-center justify-between '>
           <h3 className='font-lato font-semibold leading-none dark:text-white'>UADER - FCYT</h3>
-          <div className='text-sm tabular-nums font-inter text-gray-600 dark:text-darkText'>
+          <div className='text-sm tabular-nums font-inter text-neutralText dark:text-darkText'>
             Febrero 2023
           </div>
         </div>
@@ -29,7 +29,7 @@ const Education = () => {
       <div className='flex flex-col space-y-1.5 pt-8'>
         <div className='flex items-center justify-between'>
           <h3 className='font-lato font-semibold leading-none dark:text-white'>EET N°2 “Francisco Ramírez”</h3>
-          <div className='text-sm  font-inter tabular-nums text-gray-600 dark:text-darkText'>
+          <div className='text-sm  font-inter tabular-nums text-neutralText dark:text-darkText'>
             Diciembre 2014
           </div>
         </div>
