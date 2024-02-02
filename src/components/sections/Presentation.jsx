@@ -14,7 +14,7 @@ const Presentation = () => {
       <div className='flex items-center justify-between'>
         <div>
           <h1 className='font-lato font-bold text-2xl dark:text-white'>Alexis Joel Santos</h1>
-          <p className='text-sm font-inter text-neutralText dark:text-darkText'>Técnico en Administración, con experiencia en el sector IT</p>
+          <p className='text-sm font-inter text-neutralText dark:text-darkText'>Analista de sistemas | Técnico en Administración</p>
           <p className='text-sm font-inter text-neutralText dark:text-darkText'> <FontAwesomeIcon icon={faEarthAmericas} className='pr-2'/>Concepción del Uruguay, Entre Ríos</p>
           <p className='text-sm font-inter text-neutralText dark:text-darkText'> <FontAwesomeIcon icon={faEnvelope} className='pr-2'/>alexissantos1496@gmail.com</p>
           <p className='text-sm font-inter text-neutralText dark:text-darkText'> <FontAwesomeIcon icon={faPhone} className='pr-2'/>3442-570829</p>          
