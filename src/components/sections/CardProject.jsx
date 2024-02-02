@@ -2,7 +2,7 @@ import React from 'react'
 
 const CardProject = ({ proyecto }) => {
   return (
-    <div className='flex justify-between items-center bg-[#f2f2f2] relative overflow-hidden shadow-lg group px-10 rounded-3xl h-44 hover:scale-105 transition-transform'>
+    <div className='flex justify-between items-center bg-[#f2f2f2] relative overflow-hidden shadow-lg dark:shadow-neutral-700 group px-10 rounded-3xl h-44 hover:scale-105 transition-transform'>
       <h3 className='font-lato font-semibold leading-none'>{proyecto.nombre}</h3>
       <div className='size-28 flex items-center justify-center'>
         <img src={proyecto.imagen} alt="red nube" />
