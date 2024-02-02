@@ -28,7 +28,11 @@ const ButtonDarkMode = () => {
     <div>
       <button
         className="fixed top-5 right-5 p-2 w-12 h-12 rounded-2xl dark:bg-text2 bg-textDark2 text-text dark:text-textDark dark:stroke-textDark2 stroke-text2 border-x-[1px] border-bMain dark:border-bMainDark" onClick={handleChangeTheme}>
-          {theme === 'dark' ? <FontAwesomeIcon icon={faSun} className='fa-lg'/> : <FontAwesomeIcon icon={faMoon} className='fa-lg'/> }        
+          {theme === 'dark' ? 
+            <FontAwesomeIcon icon={faSun} className='fa-lg'/> 
+            : 
+          <FontAwesomeIcon icon={faMoon} className='fa-lg'/> 
+          }        
       </button>
     </div >
   )
