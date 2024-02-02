@@ -1,4 +1,6 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 
 const WorkExperience = () => {
   return (
@@ -13,6 +15,9 @@ const WorkExperience = () => {
         </div>
       {/* </div> */}
       <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-white'>Pasantía en el Área de Producción, Municipalidad de Concepción del Uruguay</h6>
+      <div className='py-5 flex justify-center items-center'>
+        <a href='https://red-nube.netlify.app/' target='_blank' rel="noreferrer" className='inline-flex items-center rounded-md px-2 py-1 text-sm font-bold text-neutralText bg-gray-200 font-raleway hover:bg-[#00AA95] hover:text-white hover:font-bold w-15'>Red nube</a>
+      </div>
       <div>
         <p className='pt-2 text-xs font-inter text-pretty text-neutralText dark:text-darkText'>Colaboré activamente en el área de producción de la
           Municipalidad de Concepción del Uruguay, trabajando
@@ -31,6 +36,9 @@ const WorkExperience = () => {
         </div>
       </div>
       <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-white'>Proyecto Final - Taller de Integración - UADER FCYT</h6>
+      <div className='py-5 flex justify-center items-center'>
+        <a href='https://github.com/Melones5/taller-de-integracion' target='_blank' rel="noreferrer" className='text-center text-sm font-inter text-neutralText dark:text-darkText'><FontAwesomeIcon icon={faGithub}/> https://github.com/Melones5/taller-de-integracion</a>
+      </div>
       <div>
         <p className='pt-2 text-xs font-inter text-pretty text-neutralText dark:text-darkText'>Desarrollé una tienda online de alquiler de productos para motivos vacacionales, deportivos, de camping, de reparación hogareña (herramientas) entre otros.</p>
         <p className='pt-2 text-xs font-inter text-pretty text-neutralText dark:text-darkText'>Esta aplicación está desarrollada haciendo uso de diferentes
