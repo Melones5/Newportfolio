@@ -37,7 +37,7 @@ const WorkExperience = () => {
       </div>
       <h6 className='text-sm tabular-nums font-inter pt-2 dark:text-white'>Proyecto Final - Taller de Integración - UADER FCYT</h6>
       <div className='py-5 flex justify-center items-center'>
-        <a href='https://github.com/Melones5/taller-de-integracion' target='_blank' rel="noreferrer" className='text-center text-sm font-inter text-neutralText dark:text-darkText'><FontAwesomeIcon icon={faGithub}/> https://github.com/Melones5/taller-de-integracion</a>
+        <a href='https://github.com/Melones5/taller-de-integracion' target='_blank' rel="noreferrer" className='text-center text-sm font-inter text-neutralText dark:text-darkText'><FontAwesomeIcon icon={faGithub} className='icon-hover'/> https://github.com/Melones5/taller-de-integracion</a>
       </div>
       <div>
         <p className='pt-2 text-xs font-inter text-pretty text-neutralText dark:text-darkText'>Desarrollé una tienda online de alquiler de productos para motivos vacacionales, deportivos, de camping, de reparación hogareña (herramientas) entre otros.</p>

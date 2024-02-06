@@ -11,4 +11,10 @@
   body {    
     @apply bg-white dark:bg-[#0f0d0e];
   }
+  .icon-hover:hover{
+    color:#46a6ff;
+    transition: all;
+    transition-duration: .15s;
+    animation-duration: .15s;
+  }
 }
