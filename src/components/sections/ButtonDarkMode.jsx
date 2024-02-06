@@ -29,11 +29,11 @@ const ButtonDarkMode = () => {
   return (
     <div>
       <button
-        className="fixed top-5 right-5 p-2 w-12 h-12 rounded-2xl dark:bg-text2 bg-textDark2 text-text dark:text-textDark dark:stroke-textDark2 stroke-text2 border-x-[1px] border-bMain dark:border-bMainDark" onClick={handleClick}>
+        className="fixed top-5 right-5 p-2 w-12 h-12 rounded-2xl hover:dark:bg-text2 hover:bg-textDark2 text-text dark:text-textDark dark:stroke-textDark2 stroke-text2 border-bMain dark:border-bMainDark transition-all" onClick={handleClick}>
         {isDarkMode ?
-          <FontAwesomeIcon icon={faSun} className='fa-lg' color='#f1c232'/>
-          :
           <FontAwesomeIcon icon={faMoon} className='fa-lg' />
+          :
+          <FontAwesomeIcon icon={faSun} className='fa-lg'/>
         }
       </button>
     </div >
