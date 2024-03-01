@@ -4,11 +4,25 @@ import RentalStore from '../assets/logoRental.png'
 import BolosLocos from '../assets/boloslocos.png'
 import Proffy from '../assets/proffy.png'
 import SPA from '../assets/spa.png'
+import Pesitos from '../assets/pesitos.png'
 
 //Contruyo el objeto data y defino los datos
 const data  = [
   { 
     id: 1,
+    nombre: 'Pesitos',
+    descripcion: 'Plataforma que permite llevar un control de Ingresos / Gastos',
+    imagen: Pesitos,
+    tecnologias: [
+      'React',
+      'Vite',
+      'Tailwindcss',
+      'Chartjs',
+      'DayPicker'
+    ]
+  },
+  { 
+    id: 2,
     nombre: 'red nube',
     descripcion: 'Plataforma que permite a personas / Pymes conectarse con oportunidades',
     imagen: redNube,
@@ -20,7 +34,7 @@ const data  = [
     ]
   },
   {
-    id: 2,
+    id: 3,
     nombre: 'Rental Store',
     descripcion: 'Tienda de alquiler que ofrece una variedad de productos',
     imagen: RentalStore,
@@ -39,7 +53,7 @@ const data  = [
     ]
   },    
   {
-    id: 3,
+    id: 4,
     nombre: 'Bolos Locos',
     descripcion: 'Proyecto que nace como complemento a un plan de negocio (Práctica profesional II - Tec. en Adminitración)',
     imagen: BolosLocos,
@@ -50,7 +64,7 @@ const data  = [
     ]
   },    
   {
-    id: 4,
+    id: 5,
     nombre: 'Proffy',
     descripcion: 'Aplicación de profesores Mobile',
     imagen: Proffy,
@@ -62,7 +76,7 @@ const data  = [
     ]
   },    
   {
-    id: 5,
+    id: 6,
     nombre: 'SPA',
     descripcion: 'SPA (single page aplication) con consumo de API REST en formato JSON',
     imagen: SPA,
