@@ -64,17 +64,21 @@ const skill  = [
     id: 16,
     nombre: 'Firebase',
   },   
-  { 
+  // { 
+  //   id: 17,
+  //   nombre: 'Docker',   
+  // },
+  {
     id: 17,
-    nombre: 'Docker',   
-  },
+    nombre: 'Word, Docs',
+  },   
   {
     id: 18,
-    nombre: 'Herramientas ofimáticas (Word, Excel, Project)',
+    nombre: 'Excel, Sheets',
   },   
   { 
     id: 19,
-    nombre: 'Herramientas de Diseño gráfico (Illustrator, Figma)',   
+    nombre: 'Illustrator, Figma',   
   },
 ]
 

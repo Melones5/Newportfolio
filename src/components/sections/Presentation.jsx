@@ -1,5 +1,5 @@
 import React from 'react'
-import PhotoPerfil from '../../assets/perfil.jpeg'
+import PhotoPerfil from '../../assets/perfil.PNG'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEarthAmericas, faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons'
@@ -14,7 +14,7 @@ const Presentation = () => {
       <div className='flex items-center justify-between'>
         <div>
           <h1 className='font-lato font-bold text-2xl dark:text-white'>Alexis Joel Santos</h1>
-          <p className='text-sm font-inter text-neutralText dark:text-darkText'>Analista de sistemas | Técnico en Administración</p>
+          <p className='text-sm font-inter text-neutralText dark:text-darkText'>Analista de sistemas | Técnico en Administración | Estudiante de Licenciatura en Administración de Empresas</p>
           <p className='text-sm font-inter text-neutralText dark:text-darkText'> <FontAwesomeIcon icon={faEarthAmericas} className='pr-2 icon-hover'/>Concepción del Uruguay, Entre Ríos</p>
           <p className='text-sm font-inter text-neutralText dark:text-darkText'> <FontAwesomeIcon icon={faEnvelope} className='pr-2 icon-hover'/>alexissantos1496@gmail.com</p>
           <p className='text-sm font-inter text-neutralText dark:text-darkText'> <FontAwesomeIcon icon={faPhone} className='pr-2 icon-hover'/>3442-570829</p>          
