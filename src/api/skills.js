@@ -75,9 +75,17 @@ const skill  = [
   {
     id: 18,
     nombre: 'Excel, Sheets',
-  },   
+  }, 
   { 
     id: 19,
+    nombre: 'Power BI',   
+  },  
+  { 
+    id: 20,
+    nombre: 'DAX',   
+  },
+  { 
+    id: 21,
     nombre: 'Illustrator, Figma',   
   },
 ]
